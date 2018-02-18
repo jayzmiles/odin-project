@@ -1,0 +1,141 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER - NEEDS WORK */
+
+.global-bar {
+  width: 100%;
+  height: 30px;
+  top: 22px;
+  position: absolute;
+}
+
+.gbl {
+  margin: 7px 0 0 10px;
+}
+
+.gbl a {
+  padding-left: 15px;
+}
+
+#banner {
+  display: block;
+  margin: 0 auto 12px auto;
+}
+
+/* FORM */
+
+#search {
+  width: 100%;
+  margin-top: 90px;
+}
+
+#search-field {
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 0;
+  display: block;
+  width: 584px;
+  height: 44px;
+  margin: 0 auto;
+  font-size: 16px;
+  padding-left: 16px;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+#search-field:hover {
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+#search-field:focus {
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+  outline: none;
+}
+
+#btn-group {
+  margin: 20px auto;
+  text-align: center;
+}
+
+#google,
+#luck {
+  display: inline-block;
+  padding: 0 16px 0 16px;
+  height: 36px;
+  line-height: 27px;
+  background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+  -webkit-border-radius: 2px;
+  -webkit-user-select: none;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  cursor: default;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+}
+
+#google:hover,
+#luck:hover {
+  background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #222;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  line-height: 40px;
+}
+
+span {
+    list-style-type: none;
+}
+
+a {
+  display: inline-block;
+}
+
+.left {
+  float: left;
+  margin-left: 3px;
+}
+
+.left a {
+  padding-left: 27px;
+}
+
+.right a {
+  padding-left: 27px;
+}
+
+.right {
+  float: right;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+  font-size: small;
+}
+
+a:hover {
+  text-decoration: underline;
+}
